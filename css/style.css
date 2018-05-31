@@ -1,0 +1,88 @@
+body{
+  direction: rtl;
+}
+
+/* override */
+.text-primary{
+  color: #00acba !important;
+}
+.card{
+  box-shadow: 1px 5px 15px rgba(0,0,0,0.2);
+}
+a{
+  color: #333;
+}
+a:hover,a:active,a:visited{
+  color: #7ccae0;
+  text-decoration: none;
+}
+
+.btn{
+  border-radius: 50px;
+}
+
+/* images-sizes */
+.small-img{
+  width: 30px;
+  height: 30px;
+}
+.med-img{
+  width: 50px;
+  height: 50px;
+}
+.large-img{
+  width: 80px;
+  height: 80px;
+}
+.user-img img{
+  background: #f8f9fa;
+  border-radius: 50%;
+  margin-top: -40px;
+  object-fit: cover;
+}
+
+/* header */
+header{
+  background: url(../images/fanar-header.jpg) no-repeat;
+  height: 700px;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+section.mentors, section.entrepreneur{
+  background-color: #00acba;
+  padding-top: 5rem ;
+}
+
+.tags{
+  background: #f8f9fa;
+  display: inline-block;
+  padding: 4px 5px 1px;
+  border-radius: 5px;
+}
+.tags h6{
+  font-size: 12px;
+}
+
+.icons i{
+  font-size: 30px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 50%;
+  margin-top: -40px;
+  border: 2px solid #eee;
+  color: #7dc9de;
+}
+
+/* Responsive */
+@media screen and (max-width:700px){
+  header{
+    height: 200px;
+  }
+  .card{
+    margin-top: 3rem;
+  }
+  section.mentors, section.entrepreneur,section{
+    padding-top: 2rem;
+  }
+}
