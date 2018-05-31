@@ -80,7 +80,6 @@ header{
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
-
 .main-content{
   background: #fff;
   border-radius: 10px;
@@ -98,6 +97,10 @@ header{
   }
   section.mentors, section.entrepreneur,section{
     padding-top: 2rem;
+  }
+  .card-deck{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 }
 
