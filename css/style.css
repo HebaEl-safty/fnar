@@ -49,11 +49,13 @@ header{
   background-size: contain;
 }
 
-section.mentors, section.entrepreneur{
-  background-color: #00acba;
-  padding-top: 5rem ;
+.innerpage{
+    background: url(../images/inner-header.jpg) no-repeat;
+    height: 220px;
+    background-size: cover;
 }
 
+/* Commen */
 .tags{
   background: #f8f9fa;
   display: inline-block;
@@ -73,9 +75,13 @@ section.mentors, section.entrepreneur{
   border: 2px solid #eee;
   color: #7dc9de;
 }
+.card-deck{
+  margin-top: 5rem;
+}
+
 
 /* Responsive */
-@media screen and (max-width:700px){
+@media screen and (max-width:767px){
   header{
     height: 200px;
   }
@@ -86,3 +92,11 @@ section.mentors, section.entrepreneur{
     padding-top: 2rem;
   }
 }
+
+/* Homepage */
+section.mentors, section.entrepreneur{
+  background-color: #00acba;
+  padding-top: 5rem ;
+}
+
+/* Users page */
