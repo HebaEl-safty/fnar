@@ -1,5 +1,6 @@
 body{
   direction: rtl;
+  background-color: #fafafa;
 }
 
 /* override */
@@ -50,9 +51,9 @@ header{
 }
 
 .innerpage{
-    background: url(../images/inner-header.jpg) no-repeat;
-    height: 220px;
-    background-size: cover;
+  background: url(../images/inner-header.jpg) no-repeat;
+  height: 220px;
+  background-size: cover;
 }
 
 /* Commen */
@@ -76,7 +77,13 @@ header{
   color: #7dc9de;
 }
 .card-deck{
-  margin-top: 5rem;
+  margin-top: 3rem;
+}
+
+.main-content{
+  background: #fff;
+  border-radius: 10px;
+  border-top: 3px solid #00acba;
 }
 
 
