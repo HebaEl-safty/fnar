@@ -38,8 +38,11 @@ a:hover,a:active,a:visited{
 .user-img img{
   background: #f8f9fa;
   border-radius: 50%;
-  margin-top: -40px;
   object-fit: cover;
+}
+
+.user-img img.top{
+  margin-top: -40px;
 }
 
 /* header */
@@ -58,7 +61,7 @@ header{
 
 /* Commen */
 .tags{
-  background: #f8f9fa;
+  background: #e4e4e4;
   display: inline-block;
   padding: 4px 5px 1px;
   border-radius: 5px;
@@ -76,7 +79,7 @@ header{
   border: 2px solid #eee;
   color: #7dc9de;
 }
-.card-deck{
+.card-deck.img-top{
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
@@ -98,7 +101,7 @@ header{
   section.mentors, section.entrepreneur,section{
     padding-top: 2rem;
   }
-  .card-deck{
+  .card-deck.img-top{
     margin-top: 0rem;
     margin-bottom: 0rem;
   }
