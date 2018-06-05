@@ -47,16 +47,24 @@ a:hover,a:active,a:visited{
 
 /* header */
 header{
-  background: url(../images/fanar-header.jpg) no-repeat;
+  background-color: #00acba;
   height: 700px;
   background-attachment: fixed;
   background-size: contain;
 }
-
 .innerpage{
-  background: url(../images/inner-header.jpg) no-repeat;
   height: 220px;
   background-size: cover;
+}
+header nav ul li a.nav-link, header nav .user-img h6 a{
+  color: #fff;
+}
+
+.navbar-brand img{
+  width: 100px;
+}
+header nav .user-img .dropdown-toggle::after{
+  display: none;
 }
 
 /* Commen */
