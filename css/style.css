@@ -96,6 +96,9 @@ header{
     height: 200px;
   }
   .card{
+    margin-top: 1rem;
+  }
+  .img-top  .card{
     margin-top: 3rem;
   }
   section.mentors, section.entrepreneur,section{
