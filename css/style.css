@@ -7,6 +7,11 @@ body{
 .text-primary{
   color: #00acba !important;
 }
+.btn-primary{
+  background-color:#00acba;
+  border-color: #00acba;
+
+}
 .card{
   box-shadow: 1px 5px 15px rgba(0,0,0,0.2);
 }
@@ -48,12 +53,10 @@ a:hover,a:active,a:visited{
 /* header */
 header{
   background-color: #00acba;
-  height: 700px;
   background-attachment: fixed;
   background-size: contain;
 }
 .innerpage{
-  height: 220px;
   background-size: cover;
 }
 header nav ul li a.nav-link, header nav .user-img h6 a{
@@ -67,7 +70,22 @@ header nav .user-img .dropdown-toggle::after{
   display: none;
 }
 
+header .user-img .dropdown-menu{
+  left: 40px;
+  right: auto;
+}
+nav.navbar.navbar-expand-lg.fixed-top{
+  background: #00acba;
+}
+
+.bradcramp-title {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
 /* Commen */
+
+/* Tages */
 .tags{
   background: #e4e4e4;
   display: inline-block;
@@ -96,12 +114,24 @@ header nav .user-img .dropdown-toggle::after{
   border-radius: 10px;
   border-top: 3px solid #00acba;
 }
+/* notification */
+
 
 
 /* Responsive */
+@media screen and (min-width:768px) and (max-width:990px) {
+  .navbar-nav{
+    border-bottom: 1px solid #ffffff82;
+    padding: 1rem;
+  }
+}
 @media screen and (max-width:767px){
   header{
     height: 200px;
+  }
+  .navbar-nav{
+    border-bottom: 1px solid #ffffff82;
+    padding: 1rem;
   }
   .card{
     margin-top: 1rem;
