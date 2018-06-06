@@ -10,7 +10,10 @@ body{
 .btn-primary{
   background-color:#00acba;
   border-color: #00acba;
-
+}
+.btn-primary:hover,.btn-primary:active,.btn-primary:visited,.btn-primary:focus{
+  background-color:  #0294a0;
+  border-color:  #0294a0;
 }
 .card{
   box-shadow: 1px 5px 15px rgba(0,0,0,0.2);
@@ -50,6 +53,49 @@ a:hover,a:active,a:visited{
   margin-top: -40px;
 }
 
+/* Commen */
+/* Tages */
+.tags{
+  background: #e4e4e4;
+  display: inline-block;
+  padding: 4px 5px 1px;
+  border-radius: 5px;
+}
+.tags h6{
+  font-size: 12px;
+}
+
+.icons i{
+  font-size: 30px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 50%;
+  margin-top: -40px;
+  border: 2px solid #eee;
+  color: #7dc9de;
+}
+.card-deck.img-top{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+form{
+  position: relative;
+}
+form input.form-control{
+  font-size: 12px;
+}
+form .search-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 12px;
+}
+
 /* header */
 header{
   background-color: #00acba;
@@ -83,38 +129,34 @@ nav.navbar.navbar-expand-lg.fixed-top{
   padding-bottom: 2rem;
 }
 
-/* Commen */
-
-/* Tages */
-.tags{
-  background: #e4e4e4;
-  display: inline-block;
-  padding: 4px 5px 1px;
-  border-radius: 5px;
+/* sidebar */
+.sidebar{
+  background: #fff;
+  border-radius: 10px;
+  border-top: 3px solid #00acba;
 }
-.tags h6{
-  font-size: 12px;
+.sidebar .icons{
+  margin-top: -30px;
 }
-
-.icons i{
-  font-size: 30px;
-  background-color: #f8f9fa;
-  padding: 30px;
-  border-radius: 50%;
-  margin-top: -40px;
-  border: 2px solid #eee;
+.sidebar .icons i{
+  font-size: 20px;
+  padding: 0;
+  background-color: #ffffff;
+  border: 3px solid #00acba;
   color: #7dc9de;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  margin-top: 0
 }
-.card-deck.img-top{
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-}
+
+/* Main-content */
 .main-content{
   background: #fff;
   border-radius: 10px;
   border-top: 3px solid #00acba;
 }
-/* notification */
+
 
 
 
