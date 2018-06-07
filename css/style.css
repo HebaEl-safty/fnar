@@ -230,13 +230,15 @@ header .info-user{
 .info-user .user-img img.top{
   margin-top: 0;
   width: 150px;
-      margin-bottom: -30px;
+  margin-bottom: -30px;
 }
-.edit{
+.info-user .edit{
   position: absolute;
   top: 0;
   right: 12px;
   z-index: 10;
+}
+.edit{
   background: #fff;
   padding: 5px 9px;
   border-radius: 50%;
